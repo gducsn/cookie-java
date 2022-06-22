@@ -157,10 +157,10 @@ interessa. Iteriamo l’array per tutta la sua lunghezza. Creiamo una nuova
 variabile in cui assegniamo come valore il cookie iterato ad ogni ciclo.
 
 Se il nome del cookie corrisponde con quello che abbiamo immesso come 
-argomento del metodo il ciclo si ferma e viene ritornato il cookie 
+argomento del metodo, il ciclo si ferma e viene ritornato il cookie 
 cercato.
 
-Questi due metodi ci permetto, per l’intera applicazione, di creare e 
+Questi due metodi ci permettono, per l’intera applicazione, di creare e 
 tornare cookies.
 
 ---
@@ -239,8 +239,8 @@ Prendiamo il metodo dalla classe utils, .addCookie(), inseriamo la
 risposta, quanto tempo deve vivere il nostro cookie, il nome e il suo 
 valore.
 
-Infine reindirizziamo l’utente ad un’altra pagina. Non abbiamo utilizzato 
-il dispatcher e forward in questa occasione poiché il suo utilizzo non ci 
+Infine reindirizziamo l’utente verso un’altra pagina. Non abbiamo utilizzato 
+il dispatcher e forward in questa occasione, poiché il suo utilizzo non ci 
 avrebbe dato il cookie nell’immediato. Per ottenerlo, infatti, 
 bisognerebbe ricaricare la pagina. Con il redirect è immediato.
 
@@ -280,7 +280,7 @@ href="https://img.icons8.com/ios/344/cookies.png">
 </html>
 ```
 
-La pagina principale in cui è presente il form e l’attributo name per 
+La pagina principale in cui è presente il form e l’attributo 'name' per 
 poter recuperare il valore dell’input.
 
 ---
@@ -368,7 +368,7 @@ Creiamo un oggetto di tipo cookie il quale richiama il metodo .getCookie()
 dalla classe utils e recupera il cookie che ci interessa.
 
 Adesso, con il costrutto if diamo una condizione: se ‘nameString’ non è 
-nullo allora il valore di cookievalue è il nome che cerchiamo.
+nullo, quindi sono presenti cookies, assegnamio alla stringa 'cookievalue' il valore del cookie.
 
 Questo procedimento ci serve per evitare si inalzino errori e per gestire 
 dinamicamente anche la pagina HTML.
@@ -442,7 +442,7 @@ http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
 ```
 
 L’utente una volta cliccato su ‘submit’ sarà poi indirizzato, grazie al 
-servlet, alla pagina Result.jsp. Nel browser non uscirà come endpoint 
+servlet, alla pagina Result.jsp. Nel browser non risulterà come url 
 ‘Result.jsp’ ma solo ‘/result’.
 
 Info 
