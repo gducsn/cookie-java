@@ -450,9 +450,8 @@ Info
 
 ---
 
-[**[Atomic 
-Habits](https://www.amazon.it/Atomic-Habits-Proven-Build-Break/dp/0735211299)** 
-di James Clear](Cookies%2080f1a597ccca460d81bd8e9e808a0a17/www5.webp)
+![www5](https://user-images.githubusercontent.com/94108883/175119783-7f939387-8a7b-4928-ad82-50dc44ba1384.png)
+
 
 **[Atomic 
 Habits](https://www.amazon.it/Atomic-Habits-Proven-Build-Break/dp/0735211299)** 
